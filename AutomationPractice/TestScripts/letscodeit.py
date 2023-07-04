@@ -1,0 +1,21 @@
+import time
+
+from Utils.letscodeItlibrary import letscodeItlibrary
+obj = letscodeItlibrary()
+obj.chrome_Browser()
+obj.launch_WebPage()
+time.sleep(3)
+obj.maximize_Window()
+time.sleep(3)
+# obj.url_Validation()
+time.sleep(3)
+# obj.login()
+time.sleep(3)
+obj.user_Name()
+time.sleep(3)
+obj.passWord()
+time.sleep(3)
+obj.button()
+time.sleep(10)
+obj.text_val()
+time.sleep(4)
